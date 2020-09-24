@@ -1,0 +1,6 @@
+22:35:25.847 [main] INFO  Search-Sectional-Furniture - Create driver: chrome
+22:35:31.741 [main] INFO  Search-Sectional-Furniture - [Starting purchaseSectionalFurniture]
+22:35:31.755 [main] INFO  Search-Sectional-Furniture - Opening page:https://www.wayfair.com/
+22:35:36.681 [main] INFO  Search-Sectional-Furniture - Page opened
+22:35:36.682 [main] INFO  Search-Sectional-Furniture - Navigating to Furniture Page:https://www.wayfair.com/
+22:35:40.225 [main] INFO  Search-Sectional-Furniture - Navigated to Furniture

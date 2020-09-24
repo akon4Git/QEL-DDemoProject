@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="SearchAndPurchase-AppiumBook">
+        <parameter name="searchOption" value="Appium Book"></parameter>
+        <classes>
+            <class name="com.amazon.appiumBook.SearchAppiumBookTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="SearchAndPurchase-Iphone">
+    <parameter name="searchOption" value="iPhone"></parameter>
+    <parameter name="IphoneType" value="iPhone 11 Pro"></parameter>
+    <classes>
+        <class name="com.amazon.iPhone.SelectIphoneTest">
+        </class>
+    </classes>
+    </test>
+
+    <test name="Search-Sectional-Furniture">
+        <parameter name="selectNthFurniture" value="12"></parameter>
+        <classes>
+            <class name="sectionals.livingRoom.Furniture.WayFair.SectionalsFurnitureTest">
+            </class>
+        </classes>
+    </test>
+
+</suite>
