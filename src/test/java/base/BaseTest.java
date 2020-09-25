@@ -44,6 +44,4 @@ import java.util.concurrent.TimeUnit;
         // Close browser
         driver.quit();
     }
-
-
 }

@@ -15,7 +15,7 @@ public class SectionalFurnitureDetailsPage extends BasePageObject {
     }
 
     private By addToCartLocator(){
-        return By.xpath("//button[@id='btn-add-to-cart']/span");
+        return By.xpath("//button[@id='btn-add-to-cart']");
     }
     private By continueToCartLocator(){
         return By.xpath("//button[@id='btn-add-to-cart']/span");
